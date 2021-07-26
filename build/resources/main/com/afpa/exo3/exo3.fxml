@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.afpa.exo3.Exo3Controller">
+   <children>
+      <Pane fx:id="grandLabel" layoutX="11.0" layoutY="9.0" prefHeight="178.0" prefWidth="564.0" />
+      <HBox layoutX="21.0" layoutY="221.0" spacing="45.0">
+         <children>
+            <Slider fx:id="slide_r" blockIncrement="1.0" max="255.0" onMouseClicked="#initialize" prefHeight="32.0" prefWidth="362.0" />
+            <Label fx:id="labcol_r" prefHeight="17.0" prefWidth="157.0" text="Rouge" textFill="WHITE" />
+         </children>
+      </HBox>
+      <HBox layoutX="21.0" layoutY="282.0" spacing="45.0">
+         <children>
+            <Slider fx:id="slide_b" blockIncrement="1.0" max="255.0" onContextMenuRequested="#initialize" prefHeight="32.0" prefWidth="362.0" />
+            <Label fx:id="labcol_b" prefHeight="17.0" prefWidth="157.0" text="Bleu" textFill="WHITE" />
+         </children>
+      </HBox>
+      <HBox layoutX="21.0" layoutY="347.0" spacing="45.0">
+         <children>
+            <Slider fx:id="slide_v" blockIncrement="1.0" max="255.0" onContextMenuRequested="#initialize" prefHeight="32.0" prefWidth="362.0" />
+            <Label fx:id="labcol_v" prefHeight="17.0" prefWidth="157.0" text="Vert" textFill="WHITE" />
+         </children>
+      </HBox>
+      <Label fx:id="labval_r" layoutX="77.0" layoutY="201.0" onKeyReleased="#initialize" prefHeight="32.0" prefWidth="157.0" text="Label" />
+      <Label fx:id="labval_b" layoutX="75.0" layoutY="260.0" prefHeight="32.0" prefWidth="157.0" text="Label" />
+      <Label fx:id="labval_v" layoutX="76.0" layoutY="327.0" prefHeight="32.0" prefWidth="157.0" text="Label" />
+<!--      <Button fx:id="btn1" layoutX="495.0" layoutY="141.0" mnemonicParsing="false" onAction="#fond" text="Button" />-->
+<!--      <TextArea fx:id="labval_r" layoutX="26.0" layoutY="126.0" prefHeight="25.0" prefWidth="312.0" />-->
+   </children>
+</AnchorPane>

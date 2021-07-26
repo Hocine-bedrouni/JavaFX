@@ -1,0 +1,19 @@
+com/afpa/exo2/Exo2Controller.java
+ com.afpa.exo2.Exo2Controller
+com/afpa/tableau/TableauController.java
+ com.afpa.tableau.TableauController
+com/afpa/Main.java
+ com.afpa.Main
+com/afpa/gui/Form1Controller.java
+ com.afpa.gui.Form1Controller
+com/afpa/tableau/Client.java
+ com.afpa.tableau.Client
+com/afpa/additionneur/AdditionController.java
+ com.afpa.additionneur.AdditionController
+com/afpa/MenuController.java
+ com.afpa.MenuController
+com/afpa/exo3/Exo3Controller.java
+ com.afpa.exo3.Exo3Controller
+ com.afpa.exo3.Exo3Controller$1
+ com.afpa.exo3.Exo3Controller$2
+ com.afpa.exo3.Exo3Controller$3
